@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+    <link rel="stylesheet" href="breakpoint.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- ==========================================
+                    Header
+    =========================================== -->
+    <header class="header">
+      <a href="#" class="logo">Personal<span> Website.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        
+      </nav>
+    </header>
+
+    <!-- ==========================================
+                  Home Section
+    =========================================== -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Welcome to my profile page</3>
+        <h1>Nguyen Quoc Khang</h1>
+        <h3>I am an Information Technology student <span class="multiple-text"></span></h3>
+      <div class="social-media">
+          <a href="https://www.facebook.com/khang.khaokhinh.56" target="_blank"><i class="bx bxl-facebook"></i>
+          <a href="https://github.com/NQKhangg"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/nqkhangg_/"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.linkedin.com/in/nguyen-quoc-khang-390b5a221"><i class="bx bxl-linkedin"></i></a>
+        </div> 
+
+        <!-- add link for your CV into `href` -->
+         <a href="assets/image/CV.png" class="btn" target="_blank">This is my CV</a>
+      </div>
+      <div class="home-img">
+        <img src="assets/image/home1.png" alt="home" />
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  About Section
+    =========================================== -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/image/about1.jpg" alt="about" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+        Seeking practical experience as a Web Development Intern and Software Testing Intern to enhance my programming skills, gain deeper insight into web development processes, and strengthen my knowledge of quality assurance and modern testing methodologies. Always eager to learn, collaborate in teams, actively contribute to the company’s projects. Hoping to accumulate valuable experience to build a solid foundation for a future career in IT.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Services Section
+    =========================================== -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skill</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Front-End</h3>
+          <p>
+            HTML
+            CSS
+            ReactJS
+            Next.js
+            TailwindCSS
+            Figma...
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-data"></i>
+          <h3>Back End</h3>
+          <p>
+            JavaScript
+            Node.js
+            Express.js
+            RESTful API
+            MongoDB
+            SQLServer
+            MySQL...
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-paint"></i>
+          <h3>Programming Languages</h3>
+          <p>
+            JavaScript (ES6+)
+            Python
+            PHP
+            C++
+            C#...
+          </p>
+
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Portfolio Section
+    =========================================== -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/image/img2.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Web FreshFood</h4>
+            <p>
+              User-friendly frontend, backend APIs, MongoDB database, integrated chatbot, SePay payment gateway, Gmail authentication...
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img1.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Music suggestion</h4>
+            <p>
+              Built with Collaborative Filtering, Content‑Based, Hybrid Recommenders...and Spotify API integration.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img3.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>GameHeroSurvivors</h4>
+            <p>
+              A 2D survival‑style game developed with Unity, inspired by the popular title Vampire Survivors.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img4.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>BadmintonEquipment</h4>
+            <p>
+              Built with React.js for the frontend, Node.js for the backend, and MongoDB as the database,  with full API integration...
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img5.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Travel Earth</h4>
+            <p>
+              This website is developed using core web technologies including HTML, CSS, Bootstrap, JavaScript and jQuery!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img6.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Book‑selling Web</h4>
+            <p>
+              Building a book‑selling website using the Django framework.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Contact Section
+    =========================================== -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+    
+<form id="contact-form">
+  <div class="input-box">
+    <input type="text" name="fullname" placeholder="Full Name" required />
+    <input type="email" name="email" placeholder="Email Address" required />
+  </div>
+
+  <div class="input-box">
+    <input type="tel" name="phone" placeholder="Mobile Number" />
+    <input type="text" name="subject" placeholder="Email Subject" />
+  </div>
+
+  <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+  <input type="submit" value="Send Message" class="btn" />
+</form>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const data = new FormData(this);
+    const subject = encodeURIComponent(data.get('subject') || 'New message from contact form');
+    const body = encodeURIComponent(
+      `Họ tên: ${data.get('fullname')}\n` +
+      `Email: ${data.get('email')}\n` +
+      `SĐT: ${data.get('phone') || ''}\n\n` +
+      `Nội dung:\n${data.get('message')}`
+    );
+    window.location.href = `mailto:nguyenquockhang1104@gmail.com?subject=${subject}&body=${body}`;
+  });
+</script>
+
+
+    <!-- ==========================================
+                    Footer
+    =========================================== -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2026 by NQKhang...</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+                  Scroll Reveal
+    =========================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ==========================================
+                   Typed Js
+    =========================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ==========================================
+                  Custom Js
+    =========================================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
